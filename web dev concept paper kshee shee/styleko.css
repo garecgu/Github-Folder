@@ -8,7 +8,7 @@
 }
 html,body{
     height:100%;
-    background-color:#FEFFF1;
+    background-color:#FDFFE0;
 }
 
 
@@ -44,10 +44,6 @@ html,body{
     width: 100px;
 }
 
-#socmed ul li {
-    list-style: none;
-   
-}
 
 /*OVERLAY WITH KCC IMAGE*/
 .overlay{
@@ -72,16 +68,17 @@ mark{
 
 /*SECTION PART*/
 .section h1{
-    text-align: center;
-    padding:20px;
+  text-align: center;
+  padding:20px;
 }
 
 .section{
     
-    background-color: white;
-    width: 700px;
-    margin:auto;
-    padding:100px;
+  background-color: white;
+  width: 700px;
+  margin:auto;
+  padding:100px;
+  border-radius: 25px;
 
 }
 .section img{
@@ -109,18 +106,113 @@ mark{
     font-size: 18px;
     text-align: center;
 }
+.post_section{
+ background-color:white;
+ margin:auto;
+ width:700px;
+ padding:20px;
+ height:200px;
+  
+ 
+}
+.KSR{
+position:relative;
+text-align: justify;
+left:400px;
+width:300px;
+bottom:400px;
 
+
+}
+.HASR{
+position:relative;
+text-align: justify;
+width:300px;
+
+}
+.post_section h3{
+  text-align: center;
+  color:#0066ff;
+}
+.vl{
+  border-left:2px solid black;
+  height:200px;
+  position:relative;
+  left:340px;
+  bottom:190px;
+}
+#ksr_icon {
+  font-size: 50px;
+
+}
+#hasr_icon{
+  font-size: 50px;
+}
 
 
 /*FOOTER*/
 .footer{
-    background-color:#0066ff;
-    position: relative;
-    top:1000px;
-    height:80px;
-    width: 100%;
-    padding-top: 20px;
+  background-color:#0066ff;
+  position: relative;
+  top:100px;
+  height:200px;
+  width: 100%;
+  padding-top: 20px;
+  margin-top:440px;
 }
+#socmed{
+  text-align:right;
+}
+#socmed ul li {
+  list-style: none;
+  position:relative;
+  font-size: 30px;
+  display: inline;
+  padding:5px;
+ 
+}
+#opn_hrs{
+  position:relative;
+  text-align: center;
+  top:25px;
+  font-size: 20px;
+
+  
+ 
+}
+#address{
+  position:relative;
+  text-align:left;
+  left:200px;
+  bottom:70px;
+  font-size: 20px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US  */
 /*
 .tab
 {
