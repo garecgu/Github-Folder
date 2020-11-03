@@ -1,70 +1,99 @@
 <!DOCTYPE html>
 <html>
+
     <head>
-        <link rel = "stylesheet" type="text/css" href="styleko.css">
-        <title>KCC Meal Recipe</title>
+        <link rel="stylesheet" type="text/css" href="styleko.css">
+        <script src="https://kit.fontawesome.com/98068bb581.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
-        <div class ="main-wrapper">
-            <nav id = "main-navigation">
-                <img src="kcc.png" class = "kcc-image" alt="KCC" >
+        <div class="container">
+        
+
+            <nav id="main-navigation">
+                <img src="kcc.png" class="kcc-image" alt="KCC">
                 <ul>
 
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Recipes</a></li>
-                    <li><a href="#">About us</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="Recipes.html">Recipes</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
                 </ul>
 
             </nav>
 
+            <div class ="overlay">
+                <img src = "5.jpg">
+                <div class = "overlay_txt">
+                  <h1><mark>KCC FOODIES</mark></h1>
+                  <h2><mark>RECIPES THAT ARE<br>MADE EASY.</mark></h2>
+
+                </div>
+            </div>
+            
+            <div class = "section">
+                <h1>Featured Meal Sets</h1>
+                <h2>ADOBO</h2>
+                <img src = "adobo.jpg" class="adobo_img">
+                <p>
+                    Adobo refers to a method of marinating and stewing for any
+                    cut of meat or fish in a briny mixture of vinegar, soy sauce,
+                    and spices.
+                </p>
+                <h2>SINIGANG</h2>
+                <img src ="sinigang.jpg" class = "sinigang_img">
+                <p>
+                    Sinigang is often composed of a type of meat or fish, 
+                    vegetables, tomatoes, and tamraind flavoring, For example
+                    sinigang can be cooked with beef, chicken, pork spare ribs,
+                    shrimp, or even fish, but more commonly it is cookied with
+                    pork.
+                </p>
+                <h2>PINAKBET</h2>
+                <img src ="pinakbet.jpg" class ="pinakbet_img">
+                <p>Pinakbet is made from mixed vegetables steamed in fish or 
+                    shrimp sauce.
+                </p>
+
+            </div>
 
 
-
-
+           
+    
         </div>
-        <div class="slidershow wrapper">
+        
 
-            <div class ="slides">
+        <div class="footer">
 
-                <!--RADIO BUTTONS-->
-                <input type = "radio" name = "radio-button" id = "radio1" checked>
-                <input type = "radio" name = "radio-button" id = "radio2">
-                <input type = "radio" name = "radio-button" id = "radio3">
-                <input type = "radio" name = "radio-button" id = "radio4">
-                <input type = "radio" name = "radio-button" id = "radio5">
+            <div class="footer-content">
+                <div id="socmed">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/KCCZamboanga/" target="_blank"> <i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/kccmalldezambo?lang=en" target="_blank"><i class="fab fa-twitter"></i> </a>
+                        </li>
+                    </ul>
+                </div>  
 
-                <!--IMAGES-->
-                <div class = "slide s1">
-                    <img src = "1.jpg" alt = "">
-                </div>
-                <div class = "slide">
-                    <img src = "2.jpg" alt = "">
-                </div>
-                <div class = "slide">
-                    <img src = "3.jpg" alt = "">
-                </div>
-                <div class = "slide">
-                    <img src = "4.jpg" alt = "">
-                </div>
-                <div class = "slide">
-                    <img src = "5.jpg" alt = "">
-                </div>
-                </div>
+                
 
-                <!--NAVIGATION -->
-                <div class ="navigation">
-                    <label for = "radio1" class = "manual-button"></label>
-                    <label for = "radio2" class = "manual-button"></label>
-                    <label for = "radio3" class = "manual-button"></label>
-                    <label for = "radio4" class = "manual-button"></label>
-                    <label for = "radio5" class = "manual-button"></label>
-                </div>
+
+
+
+
             </div>
         </div>
 
+        
+
+    
+
+
 
     </body>
+
+
 
 
 

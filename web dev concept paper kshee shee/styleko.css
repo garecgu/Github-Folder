@@ -1,111 +1,90 @@
-*{
-    margin:0;
-    padding:0;
-}
-body{
-    background-color: white;
-}
-#main-navigation{
-   text-align:right;
-   padding: 5px 0px 10px ;
-   background-color:#0066ff;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    color: black;
 
 }
-#main-navigation ul li{
+html,body{
+    height:100%;
+}
+
+
+
+
+
+#main-navigation {
+   
+    text-align: right;
+    padding: 5px 0px 10px;
+    background-color: #0066ff;
+}
+
+#main-navigation ul li {
     list-style: none;
-    display:inline;
+    display: inline;
     padding: 0 20px;
-    position:relative;
-    bottom:30px;
-
-
+    position: relative;
+    bottom: 30px;
 }
-#main-navigation a{
+
+#main-navigation a {
     text-decoration: none;
-    color:white;
-    font-family:arial;
+    color: white;
+    font-family: arial;
 }
- .kcc-image{
+
+.kcc-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100px;
+}
 
+
+
+#socmed ul li {
+    list-style: none;
+   
+}
+.overlay{
+display: flex;
+justify-content: center;
 
 
 
 }
 
+.overlay img{
+   width:1100px;
+   height:700px;
+  
+}
+.overlay_txt{
+    position:absolute;
+    top:300px; 
+}
 
-.slidershow{
-    width:1000px;
-    height: 500px;
-    overflow:hidden;
+mark{
+    background-color:#fffdd0 ;
+    color:#0066ff;
+    font-size: 40px;
+}
+.section h1{
+    text-align: center;
+    padding:20px;
+}
+.adobo_img{
+position: relative;
+height:300px;
+text-align: center;
+}
 
-
-    }
-    .wrapper{
+.footer{
+    background-color:#0066ff;
     position: relative;
-    top:329px;
-    left:50%;
-    transform:translate(-50%,-50%);
-
-    }
-    .navigation{
-    position:relative;
-    bottom: 50px;
-    left: 33.5%;
-    display: flex;
-
-    }
-    .manual-button{
-    width: 50px;
-    height: 10px;
-    border: 2px solid white;
-    margin: 6px;
-    cursor: pointer;
-    transition: 0.5s;
-
-    }
-
-    .slide{
-    width: 20%;
-    transition: 0.6s;
-    }
-    .slide img{
+    top:2000px;
+    height:80px;
     width: 100%;
-    height: 100%;
-
-    }
-
-    .slides{
-    width: 500%;
-    height: 100%;
-    display: flex;
-    }
-
-
-    .manual-button:hover{
-    background:white;
-    }
-
-    input[name="radio-button"]{
-    position: absolute;
-    visibility: hidden;
-    }
-
-    #radio1:checked ~ .s1{
-    margin-left: 0;
-    }
-    #radio2:checked ~ .s1{
-    margin-left: -20%;
-    }
-    #radio3:checked ~ .s1{
-    margin-left: -40%;
-    }
-    #radio4:checked ~ .s1{
-    margin-left: -60%;
-    }
-    #radio5:checked ~ .s1{
-    margin-left: -80%;
-    }
+    padding-top: 20px;
+}
