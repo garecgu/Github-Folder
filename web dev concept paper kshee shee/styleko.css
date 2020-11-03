@@ -121,3 +121,103 @@ mark{
     width: 100%;
     padding-top: 20px;
 }
+/*
+.tab
+{
+  font-family:"Raleway";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 350px;
+  background: #f5f5f5;
+  padding: 20px 30px;
+  overflow: hidden;
+  border-radius: 50px;
+  box-shadow: 5px 10px 5px #ccc;
+} */
+
+.tab
+{
+  position: relative;
+  top: 50px;
+  font-family:"Raleway";
+  margin: auto;
+  width: 700px;
+  height: 450px;
+  background: #f5f5f5;
+  padding: 20px 30px;
+  overflow: hidden;
+  border-radius: 50px;
+  box-shadow: 5px 10px 5px #ccc;
+}
+
+.tab .tab-head
+{
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.tab .tab-head > div
+{
+  width: calc( 100% / 2);
+  text-align: center;
+  color: #888;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.tab .tab-head > div > i
+{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.tab .tab-head > div.sets
+{
+  color: #00acee;
+}
+
+.tab .tab-indicator
+{
+  position: relative;
+  width: calc(100% / 2);
+  height: 5px;
+  background: #00acee;
+  left: 0px;
+  border-radius: 5px;
+  transition: all 500ms ease-in-out;
+}
+
+.tab .tab-body
+{
+  text-align: justify;
+  position: relative;
+  height: calc(100% - 60px);
+  margin-top: 20px;
+  padding: 10px 10px;
+}
+
+.tab .tab-body > div
+{
+  position: absolute;
+  top: -150%;
+  opacity: 0;
+  margin-top: 5px;
+  transform: scale(0.9);
+  transition: opacity 500ms ease-in-out 0ms,
+    transform 500ms ease-in-out 0ms;
+}
+
+.tab .tab-body > div.sets
+{
+  top: 0px;
+  opacity: 1;
+  transform: scale(1);
+  margin-top: 0px;
+}
