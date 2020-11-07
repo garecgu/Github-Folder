@@ -1,14 +1,14 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: arial;
-    color: black;
-  
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  color: black;
 
 }
 html,body{
-    height:100%;
-    background-color:#FDFFE0;
+  height:100%;
+  width:auto;
+  background-color:#FDFFE0;
 }
 
 
@@ -16,19 +16,22 @@ html,body{
 
 /*NAVIGATION*/
 #main-navigation {
-   
-    text-align: right;
-    padding: 5px 0px 10px;
-    background-color: #0066ff;
-   
+  text-align: right;
+  padding: 5px 0px 10px;
+  background-color: #0066ff;
+  width:100%;
 }
 
 #main-navigation ul li {
-    list-style: none;
-    display: inline;
-    padding: 0 20px;
-    position: relative;
-    bottom: 30px;
+  list-style: none;
+  display: inline;
+  padding: 0 20px;
+  position: relative;
+  bottom: 30px;
+}
+#main-navigation a:hover{
+  color:red;
+  transition: all 0.4s ease-out;
 }
 
 #main-navigation a {
@@ -36,12 +39,17 @@ html,body{
     color: white;
     font-family: arial;
 }
+.container{
+  width: 100%;
+  min-width: 500px;
+  margin: auto;
+}
 
 .kcc-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 130px;
 }
 
 
@@ -51,19 +59,19 @@ display: flex;
 justify-content: center;
 }
 .overlay img{
-   width:1100px;
-   height:700px;
+  width:1100px;
+  height:700px;
   
 }
 .overlay_txt{
-    position:absolute;
-    top:300px; 
+  position:absolute;
+  top:300px; 
 }
 
 mark{
-    background-color:#fffdd0 ;
-    color:#0066ff;
-    font-size: 40px;
+  background-color:#fffdd0 ;
+  color:#0066ff;
+  font-size: 40px;
 }
 
 /*SECTION PART*/
@@ -73,38 +81,38 @@ mark{
 }
 
 .section{
-    
-  background-color: white;
-  width: 700px;
-  margin:auto;
-  padding:100px;
-  border-radius: 25px;
+  
+background-color: white;
+width: 700px;
+margin:auto;
+padding:100px;
+border-radius: 25px;
 
 }
 .section img{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-    left:250px
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  left:250px
 }
 .section p{
-    text-align: justify;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
 
 }
 .section h1{
-   color:#0066ff;
+  color:#0066ff;
 }
 .section h2{
-    padding:30px;
+  padding:30px;
 }
 .section h3{
-    font-size: 18px;
-    text-align: center;
+  font-size: 18px;
+  text-align: center;
 }
 .post_section{
  background-color:white;
@@ -120,7 +128,7 @@ position:relative;
 text-align: justify;
 left:400px;
 width:300px;
-bottom:400px;
+bottom:200px;
 
 
 }
@@ -137,9 +145,13 @@ width:300px;
 .vl{
   border-left:2px solid black;
   height:200px;
-  position:relative;
-  left:340px;
-  bottom:190px;
+ 
+
+}
+.align-div{
+ position:absolute;
+ margin-left: 350px;
+ top: 2390px;
 }
 #ksr_icon {
   font-size: 50px;
@@ -153,41 +165,40 @@ width:300px;
 /*FOOTER*/
 .footer{
   background-color:#0066ff;
-  position: relative;
-  top:100px;
-  height:200px;
-  width: 100%;
-  padding-top: 20px;
-  margin-top:440px;
+  color:white;
+  
 }
-#socmed{
-  text-align:right;
+.inner_footer{
+  display:flex;
+  width: 80%;
+  height: 30vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+ 
+}.footer-heading h3{
+  margin-bottom: 10px;
 }
-#socmed ul li {
+.footer-heading{
+  display:flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  font-size: 16px;
+  margin-top:80px;
+}
+
+.socmed ul li {
   list-style: none;
-  position:relative;
   font-size: 30px;
   display: inline;
-  padding:5px;
- 
+  padding: 10px;
 }
-#opn_hrs{
-  position:relative;
-  text-align: center;
-  top:25px;
-  font-size: 20px;
+
 
   
  
-}
-#address{
-  position:relative;
-  text-align:left;
-  left:200px;
-  bottom:70px;
-  font-size: 20px;
 
-  }
+
 
 
 
