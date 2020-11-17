@@ -1,3 +1,4 @@
+/*Tab and Collapsible (About us)*/
 let tabHead = document.getElementsByClassName("tab-head")[0];
 let tabIndicator = document.getElementsByClassName("tab-indicator")[0];
 let tabBody = document.getElementsByClassName("tab-body")[0];
@@ -31,3 +32,4 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+
