@@ -114,8 +114,8 @@ html,body{
   .container 
   {
     margin: auto;
-    width: 60%;
-    height: 600px;
+    width: 825px;
+    height: 500px;
     position: relative;
     overflow: hidden;
   }
@@ -448,7 +448,7 @@ width:300px;
 .collapsible
 {
   position: relative;
-  background-color: #777;
+  background-color:#A9A9A9;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -463,7 +463,7 @@ width:300px;
 
 .active .collapsible:hover
 {
-  background-color: #555;
+  background-color:#A9A9A9;
 }
 
 .collapsible:after
